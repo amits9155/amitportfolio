@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Amit - I'm User Interface Designer & Developer.</title>
+  <meta name="title" content="Amit - I'm User Interface Designer & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by Amit Kumar">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="https://img.icons8.com/cotton/64/source-code--v1.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/hero.png">
+  <link rel="preload" as="image" href="images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images/logo-dark.svg" width="64" height="24" alt="Amit home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="images/logo-light.svg" width="64" height="24" alt="Amit home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">amit9155@gmail.com</a>
+
+          <a href="tel:9155418333" class="contact-link">(+91) 9155418333</a>
+        </div>
+
+        <ul class="social-list">
+
+          
+
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100028080725948" class="social-link">
+              <img src="images/facebook.svg"  width="20" height="12" alt="facebook">
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/amit-kumar-9b0358291/" class="social-link">
+              <img src="images/instagram.svg"  width="20" height="12" alt="instagram">
+            </a>
+          </li>          
+
+          <li>
+            <a href="https://www.instagram.com/amitsinghsarkar3311/" class="social-link">
+              <img src="images/linkedin.svg"  width="20" height="12" alt="facebook">
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/amits9155" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+
+            </a>
+          
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="images/hero.png" width="560" height="540" alt="Amit" class="w-100"
+              data-reveal="top">
+
+            
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm User Interface Designer & Developer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm Amit, a freelance user interface designer & developer based in India. I’m very passionate
+              about the work that I do.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#" class="btn btn-primary">See My Works</a>
+
+              <a href="#" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                I specialize in [your field] by delivering [specific services or value].
+                My expertise spans across [key skills], and I utilize [tools/software/frameworks] to achieve [results].
+                I’m driven by a passion for [your passion/unique approach] and strive to help my clients succeed in [target outcomes].
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>C++</p>
+
+                  <span class="span">75 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 75%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Java</p>
+
+                  <span class="span">60 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 60%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>C language</p>
+
+                  <span class="span">75 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 75%; background-color: #da8cec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Web Devlopment (HTML,CSS,JS)</p>
+
+                  <span class="span">65 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 65%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Python</p>
+
+                  <span class="span">65 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 65%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="images/icon-1.svg" width="52" height="52" loading="lazy" alt="c++ icon">
+                </div>
+
+                <h3 class="h4 card-title">C++</h3>
+
+                <p class="card-text">
+                  Expertise in building high-performance and efficient applications using C++.
+                 Skilled in object-oriented programming, memory management, and modern C++ features like smart pointers, templates, and concurrency.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">JAVA</h3>
+
+                <p class="card-text">
+                  Proficient in developing robust and scalable software solutions with Java. 
+                  Experienced in working with frameworks like Spring and Hibernate, building APIs, and creating enterprise-level applications. Focus on clean code principles and design patterns.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">WEB DEV</h3>
+
+                <p class="card-text">
+                  Full-stack web development expertise, with a focus on crafting responsive, user-friendly websites. 
+                  Proficient in front-end technologies (HTML, CSS, JavaScript) 
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">JAVASCRIPT</h3>
+
+                <p class="card-text">
+                  Advanced skills in JavaScript for building interactive and dynamic user interfaces. Expertise in frameworks like React and Angular, along with knowledge of ES6+ features.
+                   I specialize in creating scalable, performant, and modern web applications.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="https://github.com/amits9155" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Netflix Clone</p>
+
+                  <h3 class="h3 card-title">Netflix Clone</h3>
+
+                  <p class="card-text">
+                    This Netflix Clone project demonstrates my expertise in building scalable, responsive web applications, integrating third-party APIs, and ensuring smooth user experiences.
+                     It serves as a great example of my skills in web development.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="images/project-1.jpg" width="550" height="500" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Tempreture converter</p>
+
+                  <h3 class="h3 card-title">Tempreture converter</h3>
+
+                  <p class="card-text">
+                    This project is an excellent demonstration of my ability to work on practical, real-world problems, focusing on both functionality and user experience.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="images/project-2.jpg" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Restro grill</p>
+
+                  <h3 class="h3 card-title">Restro grill</h3>
+
+                  <p class="card-text">
+                    Restro Grill is a modern restaurant management web application designed to enhance customer experiences and streamline operations for restaurants. 
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="images/project-3.jpg" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Hospital website</p>
+
+                  <h3 class="h3 card-title">Hospital website</h3>
+
+                  <p class="card-text">
+                    The Hospital Website project showcases my ability to design and develop systems that address real-world challenges in the healthcare domain.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="images/project-4.jpg" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2025 Amit Singh. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100028080725948" class="social-link">
+            <img src="images/facebook.svg"  width="20" height="12" alt="facebook">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/amit-kumar-9b0358291/" class="social-link">
+            <img src="images/instagram.svg"  width="20" height="12" alt="instagram">
+          </a>
+        </li>          
+
+        <li>
+          <a href="https://www.instagram.com/amitsinghsarkar3311/" class="social-link">
+            <img src="images/linkedin.svg"  width="20" height="12" alt="facebook">
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://github.com/amits9155" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
